@@ -1,3 +1,16 @@
-name: Your New Jekyll Site
-markdown: redcarpet
-pygments: true
+title:            Rogue Theorem
+description:      
+url:              http://roguetheorem.com
+signoff:          Benjamin A. Stockwell
+google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+
+links:
+  - name:         About
+    url:          /about
+  - name:         Blog
+    url:          /
+  - name:         Contact
+    url:          mailto:info@roguetheorem.com
+
+permalink:        pretty
+markdown:         redcarpet
