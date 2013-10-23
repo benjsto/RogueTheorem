@@ -1,12 +1,19 @@
 ---
-layout: index
+layout: home
+title: Bootstrap
+base_url: "./"
 ---
 
-<ul class="posts">
-  {% for post in site.posts %}
-  <li>
-    <small class="datetime muted" data-time="{{ post.date }}">{{ post.date | date_to_string }} </small>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
+<main class="bs-masthead" id="content" role="main">
+  <div class="container">
+    <h1>Rogue Theorem</h1>
+    <p class="lead">Software for you.</p>
+    <div class = "nav-glyphs">
+    	<span class="glyphicon glyphicon-flag"></span>
+    	<span class="glyphicon glyphicon-phone"></span>
+    	<span class="glyphicon glyphicon-briefcase"></span>
+    	<span class="glyphicon glyphicon-book"></span>
+    	<span class="glyphicon glyphicon-comment"></span>
+    </div>
+  </div>
+</main>

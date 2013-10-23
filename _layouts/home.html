@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    {% include header.html %}
+    <!-- Place anything custom after this. -->
+  </head>
+  <body class="bs-docs-home">
+    <!-- Docs master nav -->
+    {% include nav-main.html %}
+
+    <!-- Page content of course! -->
+    {{ content }}
+
+    <footer class="bs-footer" role="contentinfo">
+      <div class="container">
+        <p>© 2013 Rogue Theorem LLC</p>
+        <ul class="footer-links">
+          <li><a href="{{ page.base_url }}about/">About</a></li>
+          <li class="muted">&middot;</li>
+          <li><a href="{{ page.base_url }}apps">Apps</a></li>
+          <li class="muted">&middot;</li>
+          <li><a href="{{ page.base_url }}services">Services</a></li>
+          <li class="muted">&middot;</li>
+          <li><a href="{{ page.base_url }}blog">Blog</a></li>
+          <li class="muted">&middot;</li>
+          <li><a href="{{ page.base_url }}contact">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- JS and analytics only. -->
+    {% include footer.html %}
+
+  </body>
+</html>
