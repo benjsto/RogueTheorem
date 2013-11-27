@@ -4,4 +4,26 @@ title: contact
 slug: contact
 base_url: "../"
 ---
+<div id="contact_mpls">
+	<p>Phone: +1 (612) 584-0575</p>
+	<p>Email: info@roguetheorem.com</p>
+</div>
+<form role="form" action="http://getsimpleform.com/messages?form_api_token=be0b6f80a52f2f037ac88559b1a3a95b" method="post" class='contact_form'>
+	<!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+	<input type='hidden' name='redirect_to' value='http://roguetheorem.com' />
+	<!-- all your input fields here.... -->
+	<div class="form-group">
+	  	<label for="Name">Name</label>
+	  	<input type='text' name='Name' id='Name' class="form-control" />
+	</div>
+	<div class="form-group">
+		<label for="Email">Email</label>
+	  	<input type='text' name='Email' id='Email' class="form-control"/>
+	</div>
+	<div class="form-group">
+		<label for="Message">Message</label>
+	  	<textarea type='text' rows='6' name='Message' id='Message' class="form-control" ></textarea>
+  	</div>
+  	<button type="submit" class="btn btn-danger">Send</button>
+</form>
 

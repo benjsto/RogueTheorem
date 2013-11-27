@@ -116,13 +116,13 @@ module.exports = function(grunt) {
       server: {
         options: {
           port: 3000,
-          base: '.'
+          base: '../pub'
         }
       }
     },
 
     jekyll: {
-      docs: {}
+      docs: {},
     },
 
     validation: {
@@ -131,7 +131,7 @@ module.exports = function(grunt) {
         maxTry: 5
       },
       files: {
-        src: ["_gh_pages/**/*.html"]
+        src: ["..pub/**/*.html"]
       }
     },
 

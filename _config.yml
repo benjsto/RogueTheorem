@@ -6,17 +6,9 @@ pygments:         true
 permalink:        pretty
 
 # Server
-destination:      ./_gh_pages
-exclude:          [".editorconfig", ".gitignore", ".ruby-version", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "less"]
+destination:      ../pub
+exclude:          [".editorconfig", ".gitignore", ".ruby-version", "bower.json", "composer.json", "CONTRIBUTING.md", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "less", "browserstack.json", "bower_components", "_config.yml"]
 port:             9001
-
-# Custom vars
-repo:             https://github.com/twbs/bootstrap
-download:         https://github.com/twbs/bootstrap/archive/v3.0.0.zip
-download_dist:    https://github.com/twbs/bootstrap/releases/download/v3.0.0/bootstrap-3.0.0-dist.zip
-
-blog:             http://blog.getbootstrap.com
-expo:             http://expo.getbootstrap.com
 
 cdn_css:          //netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css
 cdn_theme_css:    //netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css
