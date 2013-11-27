@@ -25,18 +25,15 @@
  */
 
 @import url("//fonts.googleapis.com/css?family=Radley");
-
+@import url("//fonts.googleapis.com/css?family=Quattrocento+Sans");
 
 .contact_form {
-  width: 250px;
-  margin-left: 40px;
+  width: 75%;
   margin-top: 20px;
 }
 
 #contact_mpls {
-  margin-left: 40px;
-  margin-right: 40px;
-  width: 250px;
+  width: 75%;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
@@ -47,26 +44,29 @@
   border-color: #888;
   border-width: 1px;
   border-radius: 5px;
+  font-size: 14px;
+}
+
+#contact_mpls p {
+  margin: 3px;
+}
+
+#contact_mpls .email {
+  color: rgb(231, 76, 60);
 }
 
 #about_rt {
-  margin-left: 40px;
-  margin-right: 40px;
   margin-bottom: 40px;
 }
 
 #about_mpls {
-  margin-left: 40px;
-  margin-right: 40px;
   color: #888;
   font-size: 11px;
 }
 
 #about_bs {
   margin-top: 60px;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 
   font-size: 12px;
 }
@@ -89,6 +89,12 @@ img.alignleft {
 body {
   position: relative; /* For scrollyspy */
   padding-top: 50px; /* Account for fixed navbar */
+
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Quattrocento Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 /* Keep code small in tables on account of limited space */
@@ -296,6 +302,11 @@ body {
   text-align: center;
   text-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
+
+.bs-masthead .symbol {
+  color: rgb(231, 76, 60);
+}
+
 .bs-masthead h1 {
   font-size: 50px;
   line-height: 1;
