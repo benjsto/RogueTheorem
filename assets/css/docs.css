@@ -27,6 +27,59 @@
 @import url("//fonts.googleapis.com/css?family=Radley");
 
 
+.contact_form {
+  width: 250px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+#contact_mpls {
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #555;
+  background-color: #ddd;
+  border-style: solid;
+  border-color: #888;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+#about_rt {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+#about_mpls {
+  margin-left: 40px;
+  margin-right: 40px;
+  color: #888;
+  font-size: 11px;
+}
+
+#about_bs {
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 60px;
+
+  font-size: 12px;
+}
+
+#about_bs h3 {
+  color: #555;
+}
+
+img.alignleft {
+  float:left;
+  margin:5px 1em 1em 0;
+}
+
 /*
  * Scaffolding
  *
@@ -209,14 +262,32 @@ body {
  */
 
  /* Masthead (headings and download button) */
+.glyphicon {
+}
+
 .nav-glyphs {
   color: rgb(231, 76, 60);
-  font-size: 60px;
+}
+
+.nav-glyphs a {
+  color: rgb(70, 70, 70);
+}
+
+.nav-glyphs a:hover {
+  color: rgb(231, 76, 60);
 }
 
 .nav-glyphs .glyphicon {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.nav-glyph-label {
+  display: inline;
+}
+
+.nav-glyph-container {
+  display: inline;
 }
 
  .bs-masthead {
