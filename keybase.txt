@@ -1,1 +1,76 @@
-DOES NOT MATTER
+==================================================================
+https://keybase.io/benjsto
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://roguetheorem.com
+  * I am benjsto (https://keybase.io/benjsto) on keybase.
+  * I have a public key with fingerprint 7E84 A9BF 1E88 6FC2 13E5  747A 0ED6 5747 B96E A539
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.8.18"
+        },
+        "key": {
+            "eldest_kid": "0101ab5f4c3fc7b2c637c7a46116cc66dca1c2101d6d079b8cb0f19428c90de3d6c40a",
+            "fingerprint": "7e84a9bf1e886fc213e5747a0ed65747b96ea539",
+            "host": "keybase.io",
+            "key_id": "0ed65747b96ea539",
+            "kid": "0101ab5f4c3fc7b2c637c7a46116cc66dca1c2101d6d079b8cb0f19428c90de3d6c40a",
+            "uid": "dbc117548c5600c0b50fe3696d9fa619",
+            "username": "benjsto"
+        },
+        "service": {
+            "hostname": "roguetheorem.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1441292915,
+    "expire_in": 157680000,
+    "prev": "973225135eadd8dca169ea8a15096d381adc37fc3c9d6dadec3e487486c36ab3",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtkn1MVWUcxy8QDBF5qQAtaXCay01g5/3lBpgK17F4ERWwmV3Oec5z7j0I51zu
+PZfLm8tYsrRmoAiTtSxeIoZJcwKhFGTeJRougah04trFgdpIpwlSWOcY/tH6t+ev
+Z8/z+X1/39/3eepWBJiC/cImCjb3K+2c38WbgilvRnBVIYIqViDmKgQUy1DRjJ3C
+l0DEjOyGFQLvgkmyGqeoIkwqcsUtMQlIGXS6ZFXRKTSJTcJYZE+CwRvVsFiELs26
+WxaNWwzFeIGSSEBIgBFwQBMMYHiSxjAaAJoWAY8BXIdEWkQZTmCBgEoYR+Is4FAR
+EiINSJTXG0qyYoNOh1M2LCIMZEmeEyQMsiwt6QIEpBiS4VEo0sZG4GjIUwSnF9pV
+l/avYZDHTq3/2Psv/z/7dj+WEwWAYQxFsoCiURSgAoVKkKA5WuQknsaMvm4XdC4F
+L0ClyKWpRqb6YZkMoJGrMcgS4FRtbqjZoeqEJUlALdHLHU5VU4FarN/aNc1hNoq1
+CodBe6BgXdKxCrIi6kkaL9j85AkxHQWabChjJInhHM5hVAICyx2yE1plg6AYmkX1
+ZfSBZbomxxA4TmEEBXlRZI00aA7yLI9RqD4UwWK8CAhGAgTg9IR4EQICkixDsjQg
+aF4gEGO0UkVFzKTuk7fpki7ZpvCa2wmRPfv9Vz9l8gs2BQX6G3/UFLIs4snHTQYR
+puPpRLTonm59MG51a6/u+Ojewnrtk5i7Jm40NRQ+p2Ztiem1PRPVsM2BB11KzCMP
+K921uQ1XS1/Z+sXYnMcU1X6x+eWZX9hz+QUvXLu5L2hXtNf7fmFOvee7N92dnT4l
+pm7ze/t6vM68aHL/Xd/ii13fVI8M722aiJlt3G5ffXDAv3fk9prMxbZ3pGexkG50
+vilwEUeIS1j45Ghp5sRA0MdDM8fSuvL87V45OdASfu/r2Jz8NNrc9m5+fmuUL793
++dzJwZT7tzaUnIhaGUqOHTr6Q0/fmfHLsaklSopwhQ5ItVhyqObc48Ok7wBS0dFz
+P+wCk9FYI/1xLDu7q/9o3cnKVbfLnr7TNuW2jV+2VoUTtXSnnNi/fVPkZMTGg+dO
+J1+dzq4/OzR7irHsKrtRva1xcEVrxpEMufLbiSu+5Tv3hsZ3HGZW4pM7Hv7cEvxX
+cuGNuVVxayvSwx69ZP7gQdTnr3/4Y/qa2RopdN1XbBHh3di/s9Nu8741b3q7AI9L
+q536FF+cPBMJ15Vrj1pyE9t9nkOhr3WIpH95zdosW2SfaBk7G77sVlP9fOtgQ+Rw
+4/mBzN7KUZIsGl7fcj1mwRPbeS31d+dCypFNXM35YE/ilhMRjoDc6ojW2d82PH+g
+68/CkdOVkd0IXRv/xtBP8Xe0C1nTIbW/jp36LPX7h3NTX27VrNf7/gY=
+=9HUP
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/benjsto
+
+==================================================================
