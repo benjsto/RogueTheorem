@@ -2,3 +2,4 @@
 *.scssc
 _gh_pages
 ..pub
+node_modules/
